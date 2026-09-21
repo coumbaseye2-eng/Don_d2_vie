@@ -42,6 +42,10 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   intl: ^0.20.3
+  url_launcher: ^6.3.2
+  image_picker: ^1.1.2
+  firebase_storage: ^13.0.5
+
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +68,19 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/logo_off.jpeg
+    - assets/images/urgence_banner_dakar.png
+    - assets/images/sang_genereuse.png
+    - assets/images/img_1.jpg
+    - assets/images/img_2.jpg
+    - assets/images/img_3.jpg
+    - assets/images/img_4.jpg
+    - assets/images/img_5.jpg
+    - assets/images/img_6.jpg
+    - assets/images/img_7.jpg
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
